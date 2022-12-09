@@ -116,7 +116,29 @@ header{
 .home-text h2{
     font-size: 1.1rem;
     font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(50) infinite alternate,
+    blink 800ms steps(22) infinite normal;
+    border-right: 1px solid black;
 }
+
+@keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 55%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
 
 .home-text p{
     font-size: var(--p-font);
