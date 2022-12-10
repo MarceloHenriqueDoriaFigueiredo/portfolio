@@ -324,6 +324,10 @@ header{
     border-radius: 5px;
 }
 
+.portifolio-info p a{
+    color: var(--text-color)
+}
+
 .portifolio-info p i{
     font-size: 18px;
 }
