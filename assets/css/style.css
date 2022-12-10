@@ -297,14 +297,22 @@ header{
     margin-top: 2rem;
 }
 
-.portifolio-img img{
-    width: 100%;
-    display: block;
+.portifolio-img{
+    overflow: hidden;
     border-radius: 0.5rem;
 }
 
+.portifolio-img img{
+    width: 100%;
+    display: block;
+}
+
+.portifolio-dados{
+    background: hsla(260, 89%, 31%, 0.1); 
+    height: 100px;
+}
+
 .portifolio-info{
-    margin-top: 10px; 
     display: flex; 
     justify-content: space-between;
 }
@@ -317,6 +325,11 @@ header{
 
 .portifolio-info p i{
     font-size: 18px;
+}
+
+.portifolio-dados h4,
+.portifolio-dados p{
+    padding: 4px;
 }
 
 .contact-form{
