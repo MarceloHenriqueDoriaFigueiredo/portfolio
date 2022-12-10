@@ -118,26 +118,27 @@ header{
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 4s steps(50) infinite alternate,
-    blink 800ms steps(22) infinite normal;
-    border-right: 1px solid black;
+    animation: 
+        blink 500ms steps(25) infinite normal,
+        typewriter 4s steps(25) 1s normal both;
+        border-right: 1px solid black;
 }
 
 @keyframes typewriter {
     from {
-      width: 0%;
+      width: 0;
     }
     to {
-      width: 55%;
+      width: 13em;
     }
   }
   @keyframes blink {
     from {
-      border-color: black;
-    }
-    to {
-      border-color: transparent;
-    }
+        border-color: black;
+      }
+      to {
+        border-color: transparent;
+      }
   }
 
 .home-text p{
