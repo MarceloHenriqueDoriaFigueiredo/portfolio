@@ -303,9 +303,20 @@ header{
     border-radius: 0.5rem;
 }
 
-.portifolio-img h4, 
-.portifolio-img p{
-    text-align: center;
+.portifolio-info{
+    margin-top: 10px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.portifolio-info span{
+    background: hsla(260, 100%, 44%, 0.1); 
+    padding: 4px; 
+    border-radius: 5px;
+}
+
+.portifolio-info p i{
+    font-size: 18px;
 }
 
 .contact-form{
