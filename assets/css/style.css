@@ -322,6 +322,7 @@ header{
     background: hsla(260, 100%, 44%, 0.1); 
     padding: 4px; 
     border-radius: 5px;
+    font-size: 14px;
 }
 
 .portifolio-info p a{
@@ -335,6 +336,7 @@ header{
 .portifolio-dados h4,
 .portifolio-dados p{
     padding: 4px;
+    font-size: 0.9rem;
 }
 
 .contact-form{
