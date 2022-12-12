@@ -333,6 +333,10 @@ header{
     color: var(--text-color)
 }
 
+.portifolio-info p a i:hover{
+    color: var(--hover);
+}
+
 .portifolio-info p i{
     font-size: 18px;
 }
