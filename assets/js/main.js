@@ -32,3 +32,23 @@ sr.reveal('.about',{
     origin: 'right',
     duration: 1000
 });
+
+sr.reveal('.skills', {
+    origin: 'top',
+    duration: 1000
+});
+
+sr.reveal('.portifolio', {
+    origin: 'bottom',
+    duration: 1000
+});
+
+sr.reveal('.contact', {
+    origin: 'left',
+    duration: 1000
+});
+
+sr.reveal('.footer', {
+    origin: 'right',
+    duration: 1000
+});
