@@ -18,3 +18,17 @@ darkmode.onclick = () =>{
         document.body.classList.remove('active');
     }
 }
+
+// Animações usando o scroll reveal
+
+window.sr = ScrollReveal({ duration: 1350, distance: '250px', easing: 'ease-out'  });
+
+sr.reveal('.home',{
+    origin: 'left',
+    duration: 1000
+});
+
+sr.reveal('.about',{
+    origin: 'right',
+    duration: 1000
+});
