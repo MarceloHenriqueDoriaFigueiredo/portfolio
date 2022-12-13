@@ -19,9 +19,9 @@
     --p-font: 0.941rem;
 }
 
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 
 body{
     background: var(--bg-color);
@@ -118,7 +118,7 @@ header{
 }
 
 .home-text h2{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
@@ -193,7 +193,7 @@ header{
 
 .about-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 220fr);
     gap: 0.5rem;
     margin-top: 2rem;
 }
@@ -201,6 +201,7 @@ header{
 .about-img img{
     width: 70%;
     border-radius: 0.5rem;
+    margin-left: 68px;
 }
 
 .about-text p{

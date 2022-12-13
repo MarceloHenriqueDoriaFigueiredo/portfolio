@@ -21,7 +21,7 @@ darkmode.onclick = () =>{
 
 // Animações usando o scroll reveal
 
-window.sr = ScrollReveal({ duration: 1350, distance: '250px', easing: 'ease-out'  });
+window.sr = ScrollReveal({ duration: 1350, distance: '-250px', easing: 'ease-out'  });
 
 sr.reveal('.home',{
     origin: 'left',
@@ -34,8 +34,8 @@ sr.reveal('.about',{
 });
 
 sr.reveal('.skills', {
-    origin: 'top',
-    duration: 1000
+origin: 'top',
+duration: 1000
 });
 
 sr.reveal('.portifolio', {

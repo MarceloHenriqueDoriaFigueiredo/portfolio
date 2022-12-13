@@ -82,6 +82,14 @@
         justify-content: center;
     }
 
+    .about-img img{
+        margin-left: 0;
+    }
+
+    .about-text p{
+        text-align: center;
+    }
+
     .skills-container{
         grid-template-columns: 1fr;
     }
