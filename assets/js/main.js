@@ -21,34 +21,32 @@ darkmode.onclick = () =>{
 
 // Animações usando o scroll reveal
 
-window.sr = ScrollReveal({ duration: 1350, distance: '-250px', easing: 'ease-out'  });
-
-sr.reveal('.home',{
-    origin: 'left',
-    duration: 1000
+ScrollReveal().reveal('.home', { 
+    delay: 500, 
+    origin: 'left', 
+    distance: '50px' 
 });
 
-sr.reveal('.about',{
-    origin: 'right',
-    duration: 1000
+ScrollReveal().reveal('.about', { 
+    delay: 500, 
+    origin: 'top', 
+    distance: '50px' 
 });
 
-sr.reveal('.skills', {
-origin: 'top',
-duration: 1000
+ScrollReveal().reveal('.skills', { 
+    delay: 500, 
+    origin: 'left', 
+    distance: '50px' 
 });
 
-sr.reveal('.portifolio', {
-    origin: 'bottom',
-    duration: 1000
+ScrollReveal().reveal('.portifolio', { 
+    delay: 500, 
+    origin: 'top', 
+    distance: '50px' 
 });
 
-sr.reveal('.contact', {
-    origin: 'left',
-    duration: 1000
-});
-
-sr.reveal('.footer', {
-    origin: 'right',
-    duration: 1000
+ScrollReveal().reveal('.contact', { 
+    delay: 500, 
+    origin: 'left', 
+    distance: '50px' 
 });
