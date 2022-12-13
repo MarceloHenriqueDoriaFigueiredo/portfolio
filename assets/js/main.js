@@ -8,13 +8,13 @@ menu.onclick = () =>{
 
 let darkmode = document.querySelector('#dark-mode');
 darkmode.onclick = () =>{
-    if (darkmode.classList.contains('fa-moon')){
-        darkmode.classList.replace('fa-moon', 'fa-sun');
+    if (darkmode.classList.contains('bx-moon')){
+        darkmode.classList.replace('bx-moon', 'bx-sun');
         document.body.classList.add('active');
     }
 
     else{
-        darkmode.classList.replace('fa-sun', 'fa-moon');
+        darkmode.classList.replace('bx-sun', 'bx-moon');
         document.body.classList.remove('active');
     }
 }
