@@ -21,32 +21,65 @@ darkmode.onclick = () =>{
 
 // Animações usando o scroll reveal
 
+ScrollReveal().reveal('.animation', { 
+    delay: 500,
+    duration: 2500, 
+    origin: 'left', 
+    distance: '60px' 
+});
+
 ScrollReveal().reveal('.home', { 
-    delay: 500, 
+    delay: 50,
+    duration: 2500, 
     origin: 'left', 
-    distance: '50px' 
+    distance: '60px' 
 });
 
-ScrollReveal().reveal('.about', { 
-    delay: 500, 
+ScrollReveal().reveal('.about-img', { 
+    delay: 50,
+    duration: 2500, 
+    origin: 'bottom', 
+    distance: '60px' 
+});
+
+ScrollReveal().reveal('.about-text', { 
+    delay: 50,
+    duration: 2500, 
+    origin: 'right', 
+    distance: '60px' 
+});
+
+ScrollReveal().reveal('.bars', { 
+    delay: 500,
+    duration: 2500, 
     origin: 'top', 
-    distance: '50px' 
+    distance: '60px' 
 });
 
-ScrollReveal().reveal('.skills', { 
+ScrollReveal().reveal('.skills-img', { 
     delay: 500, 
-    origin: 'left', 
-    distance: '50px' 
+    origin: 'bottom', 
+    distance: '60px' 
 });
 
 ScrollReveal().reveal('.portifolio', { 
     delay: 500, 
+    duration: 2500, 
     origin: 'top', 
-    distance: '50px' 
+    distance: '60px' 
 });
 
 ScrollReveal().reveal('.contact', { 
     delay: 500, 
+    duration: 2500, 
     origin: 'left', 
-    distance: '50px' 
+    distance: '60px' 
+});
+
+ScrollReveal().reveal('.footer-social a i', { 
+    delay: 500, 
+    duration: 2500, 
+    origin: 'left', 
+    distance: '60px',
+    interval: 200
 });
