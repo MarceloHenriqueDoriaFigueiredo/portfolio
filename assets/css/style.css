@@ -297,6 +297,10 @@ header{
     width: 90%;
 }
 
+.portifolio{
+    margin-top: 2rem;
+}
+
 .portifolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
