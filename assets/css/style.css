@@ -23,7 +23,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
 body{
     background: var(--bg-color);
     color: var(--text-color);
@@ -144,7 +143,7 @@ header{
       to {
         border-color: transparent;
       }
-  }
+}
 
 .home-text p{
     font-size: var(--p-font);
