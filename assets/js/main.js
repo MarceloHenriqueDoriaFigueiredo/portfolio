@@ -45,7 +45,7 @@ ScrollReveal().reveal('.about-img', {
 ScrollReveal().reveal('.about-text', { 
     delay: 50,
     duration: 2500, 
-    origin: 'right', 
+    origin: 'top', 
     distance: '60px' 
 });
 
