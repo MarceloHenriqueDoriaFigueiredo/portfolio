@@ -1,4 +1,4 @@
-<h1 align="center"> Portflio </h1>
+<h1 align="center"> Portfolio </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -30,11 +30,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto 
+O projeto teve como objetivo a construcao do meu portfolio pessoal algo que e bastante importante para um desenvolvedor. Nele pude colocar todo o
+meu conhecimento das tecnologias as quais tenho conhecimento além de mostrar outros projetos que ja tenho construido durante o decorrer do meu aprendizado.
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/WtVAk84UK5m8kN9ppOcrU4/NLW-eSports-(Community)?node-id=79%3A2502&t=3dDRm7bmne6Ng0Xp-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
