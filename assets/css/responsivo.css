@@ -129,6 +129,10 @@
     .copyright a{
         margin-left: 32px;
     }
+
+    .portifolio-info p a i{
+        margin-left: 9px;
+    }
 }
 
 @media (max-width: 340px) {
