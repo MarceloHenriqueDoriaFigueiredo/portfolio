@@ -246,11 +246,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .icon-tech img{
-    width: 100px;
+    width: 90px;
     display: flex;
     flex-direction: row;
     background: hsla(260, 100%, 44%, 0.1);
