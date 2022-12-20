@@ -242,58 +242,29 @@ header{
     object-position: center;
 }
 
-.bar-box{
-    position: relative;
+.icon-tech {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem 0;
-    margin-bottom: 1rem;
+    gap: 30px;
 }
 
-.bar-box h3,
-.bar-box span{
-    font-size: 1.1rem;
-    font-weight: 500;
+.icon-tech img{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    background: hsla(260, 100%, 44%, 0.1);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-.light-bar{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0.5rem;
-    background: hsla(260, 100%, 44%, 0.4);
-    border-radius: 0.5rem;
+.box{
+    margin-top: 22px;
 }
 
-.percent-bar{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 0.5rem;
-    background: var(--main-color);
-    border-radius: 0.5rem;
-}
-
-.html-bar{
-    width: 90%;
-}
-
-.css-bar{
-    width: 90%;
-}
-
-.javascript-bar{
-    width: 60%;
-}
-
-.git-bar{
-    width: 70%;
-}
-
-.linux-bar{
-    width: 90%;
+.box p{
+    text-align: center;
 }
 
 .portifolio{
