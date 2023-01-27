@@ -249,22 +249,16 @@ header{
     gap: 20px;
 }
 
-.icon-tech img{
-    width: 90px;
-    display: flex;
-    flex-direction: row;
-    background: hsla(260, 100%, 44%, 0.1);
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.box{
-    margin-top: 22px;
+.icon-tech{
+    margin-top: 15px;
 }
 
 .box p{
     text-align: center;
+}
+
+.box i{
+    font-size: 90px
 }
 
 .portifolio{
