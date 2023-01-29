@@ -15,7 +15,6 @@
     }
 }
 
-
 @media (max-width: 768px) {
     :root{
         --big-font: 2.4rem;
@@ -94,8 +93,6 @@
         grid-template-columns: 1fr;
     }
 
-    
-
     .contact-form form{
         width: 300px;
     }
@@ -107,7 +104,6 @@
     .home-text h2{
         font-size: 1.1rem;
         font-weight: 400;
-        
     }
 
     .footer h2{
