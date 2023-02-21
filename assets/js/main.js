@@ -19,8 +19,6 @@ darkmode.onclick = () =>{
     }
 }
 
-// Animação scroll reveal
-
 ScrollReveal().reveal('.animation', { 
     delay: 500,
     duration: 2500, 
