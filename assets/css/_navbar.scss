@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+}
+
+.navbar{
+    a{
+        font-size: 1rem;
+        padding: 10px 20px;
+        color: var(--text-color);
+        font-weight: 500;
+    }
+}
+
+.navbar{
+    a:hover{
+        color: var(--hover);
+    }
+}

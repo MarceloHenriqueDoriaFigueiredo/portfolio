@@ -1,0 +1,38 @@
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.skills-img{
+    img{
+        width: 90%;
+        padding-left: 4rem;
+        object-position: center;
+    }
+}
+
+.icon-tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-tech{
+    margin-top: 15px;
+}
+
+.box{
+    p{
+        text-align: center;
+    }
+}
+
+.box{
+    i{
+        font-size: 80px
+    }
+}
