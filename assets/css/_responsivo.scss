@@ -90,7 +90,8 @@
     }
 
     .skills-container{
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(10px, 1fr));
     }
 
     .contact-form form{
